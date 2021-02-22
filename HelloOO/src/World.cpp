@@ -6,6 +6,7 @@
  */
 
 #include "World.h"
+#include "TheRing.h"
 
 World::World() {
 	_name = "World";
@@ -33,4 +34,5 @@ void World::sayGoodbye(){
 }
 void World::say(string what){
 	cout << what << " " << _name << "!" << endl;
+
 }

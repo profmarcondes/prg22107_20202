@@ -12,7 +12,9 @@
 #include <string>
 using namespace std;
 
+
 class World {
+
 public:
 	World();
 	World(string n);
@@ -24,6 +26,8 @@ public:
 private:
 	string _name;
 	void say(string n);
+
 };
+
 
 #endif /* WORLD_H_ */
